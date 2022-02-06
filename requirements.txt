@@ -1,0 +1,4 @@
+Flask==2.0.2
+pywin32==303
+openpyxl==3.0.9
+pandas==1.4.0
