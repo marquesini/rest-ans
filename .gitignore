@@ -1,3 +1,7 @@
 files/in/*
+!files/in/.gitkeep
+files/out/*
 files/out/xlsx-unziped/*
-files/out/*.csv
+!files/out/xlsx-unziped
+!files/out/xlsx-unziped/.gitkeep
+!files/out/.gitkeep
