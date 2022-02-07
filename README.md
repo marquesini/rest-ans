@@ -9,6 +9,7 @@ Os endpoints expostos por esse serviço têm a finalidade de serem consumidos pe
 * http://192.168.1.6:5000/diesel
 
 **Comandos para ativá-lo**
+Python <= 3.8
 * pip install -r requirements.txt
 * python .\convert.py
 
