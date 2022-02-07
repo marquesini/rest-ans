@@ -2,7 +2,7 @@
 Serviço REST a ser disponibilizado em ambiente Windows para consumir os recursos do pacote pywin32, com a finalidade de converter a fonte de dados em XLS para XLSX.
 Isso é necessário para que a partir da descompactação do XLSX seja possível acessar os dados em cache das tabelas dinâmicas do arquivo original e oferecê-los para download no format .csv.
 
-Os endpoints expostos por esse serviço têm a finalidade de serem consumidos pelo pipeline construído para [Apache Airflow](https://github.com/marquesini/etl-ans/tree/master) consumí-los e armarzenar os dados trarados em uma base PostgreSQL.
+Os endpoints expostos por esse serviço têm a finalidade de serem consumidos pelo pipeline construído para [Apache Airflow](https://github.com/marquesini/etl-ans/tree/master) e armarzenar os dados tratados em uma base PostgreSQL.
 
 **Endpoints**
 * http://192.168.1.6:5000/oil
